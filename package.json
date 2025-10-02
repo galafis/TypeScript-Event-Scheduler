@@ -5,8 +5,14 @@
   "main": "dist/index.js",
   "author": "Gabriel Demetrios Lafis",
   "license": "MIT",
+  "scripts": {
+    "docs": "typedoc --out docs/api src/EventScheduler.ts"
+  },
   "dependencies": {
     "express": "^4.18.2",
     "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "typedoc": "^0.28.13"
   }
 }
